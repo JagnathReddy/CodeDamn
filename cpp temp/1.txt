@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+//class here
+
+int main() {
+    string input="oaihgoersdgoihjiogadjfoiefdrtfyghbjnkhgfghjvnbfhgudhgiewgiqhfoiefhoiehiue";
+    string expected="ahordohigdfifrfgbnhfhvbhuhiwihoehihu";
+    if(expected.compare(solution(input))==0){
+        cout<<"correct"<<endl;
+    }else{
+        cout<<"incorrect"<<endl;
+    }
+}

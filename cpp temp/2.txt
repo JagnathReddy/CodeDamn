@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+//class here
+
+int main() {
+        int arr[]={5,2,6,7,2,3,19,83,2459,8620,4,982,37893,475,923,60,2513,2965,2347,89203,467,29};
+        string expected="89203 37893 8620 2965 2513 2459 2347 982 923 475 467 83 60 29 19 7 6 5 4 3 2 2 ";
+        int size=sizeof(expected)/sizeof(int);
+        string a=solution(arr,size);
+        if(a==expected){
+            cout<<"correct"<<endl;
+        }else{
+            cout<<"incorrect"<<endl;
+        }
+}

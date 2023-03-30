@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.*;
+
+
+public class testing{
+
+    //class here
+    
+    public static void main(String[] args) {
+        int n=7;
+        String in="zihvniuthrthggfghjkjfevbhgjkgjtrftrydshj";
+        String expected="gpocupbaoyaonnmnoqrqmlcionqrnqaymayfkzoq";
+        if(solution(n,in).equals(expected)){
+            System.out.println("correct");
+        }else{
+            System.out.println("incorrect");
+        }
+    }
+}

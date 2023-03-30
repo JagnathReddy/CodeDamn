@@ -1,0 +1,44 @@
+{
+    "1":{
+        "statement":"Complete the function given below and return a String that contains only characters that are placed on odd indices of the input String",
+        "example":"input : googleStudent <br> output : ogetdn",
+        "id":1,
+        "solutionTemplatejava":"public static String solution(String inStr){\n\n}",
+        "solutionTemplatecpp":"string solution(string inStr){\n\n}"
+    },
+    "2":{
+        "statement":"Complete the solution function given below and return a int array(java)/string(c++) that contains all the elements from input array in decending order",
+        "example":"input : 9 37 8 36 1 <br> output : 37 36 9 8 1 .",
+        "id":2,
+        "solutionTemplatejava":"public static int[] solution(int arr[],int size){\n\n}",
+        "solutionTemplatecpp":"string solution(int arr[],int size){\n\n}"
+
+
+    },
+    "3":{
+        "statement":"Given a number n , return a int array(java)/string(cpp) that contains all the elements less that n whose GCD(greatest common divisior) with n is 1 in decreasing order",
+        "example":"n : 10 <br> output : 9 7 3 1",
+        "id":3,
+        "solutionTemplatejava":"public static int[] solution(int n) {\n\n}",
+        "solutionTemplatecpp":"string solution(int n){\n\n}"
+
+    },
+    "4":{
+        "statement":"Perform a cipher shift of int n on a given lowercased string and return the new String",
+        "example":"n : 2 <br> String : abcdz <br> output : cdefb",
+        "id":4,
+        "solutionTemplatejava":"public static String solution(int n,String in) {\n\n}",
+        "solutionTemplatecpp":"string solution(int n,string in){\n\n}"
+
+    },
+    "5":{
+        "statement":"Given a int array B, where B[i] is the number of bananas on ith tree , a monkey can go from ith tree to jth tree if and only if ith tree has atleast j-i bananas, in other words if monkey is at ith tree, it can jump to any tree at jth place where: <br>              0 <= j <= nums[i] and <br>              i + j < n, <br> return the minimum numbers of jumps monkey would need to reach last tree if it starts from 0th tree , note that monkey cannot carry bananas from one tree to another ",
+        "example":"input : 3 1 0 2 1 9 1 <br> output : 3 explaination : 0>3>5>6",
+        "id":5,
+        "solutionTemplatejava":"public static int solution(int b[]) {\n\n}",
+        "solutionTemplatecpp":"int solution(int b[],int size){\n\n}"
+
+
+    }
+    
+}

@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+//class here
+
+int main() {
+        int n=7;
+        
+        string in="zihvniuthrthggfghjkjfevbhgjkgjtrftrydshj";
+        string expected="gpocupbaoyaonnmnoqrqmlcionqrnqaymayfkzoq";
+        string a=solution(n,in);
+        if(a==expected){
+            cout<<"correct"<<endl;
+        }else{
+            cout<<"incorrect"<<endl;
+        }        
+    return 0;
+}

@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.*;
+
+
+public class testing{
+
+    //class here
+    
+    public static void main(String[] args) {
+        int arr[]={5,2,1,4,2,1,2,8,1,1,2,1,2,1,1,1};
+        if(solution(arr)==3){
+            System.out.println("correct");
+        }else{
+            System.out.println("incorrect");
+        }
+    }
+}

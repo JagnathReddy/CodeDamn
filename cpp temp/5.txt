@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+//class here
+
+int main() {
+        int arr[]={5,2,1,4,2,1,2,8,1,1,2,1,2,1,1,1};
+        int size=sizeof(arr)/sizeof(int);
+        if(solution(arr,size)==3){
+            cout<<"correct"<<endl;
+        }else{
+            cout<<"incorrect"<<endl;
+        }        
+    return 0;
+}
